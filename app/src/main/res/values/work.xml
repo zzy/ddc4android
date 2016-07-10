@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="job">求职</string>
+    <string name="job_info">求职信息</string>
+    <string name="new_job">发布求职</string>
+    <string name="recruit">招聘</string>
+    <string name="recruit_info">招聘信息</string>
+    <string name="new_recruit">发布招聘</string>
+    <string name="job_detail">身份证号：\n性别：\n年龄：\n技能特长：\n工作经验：\n联系电话：\n手机：\n学历：\n工作种类：\n求职岗位：\n期望薪资：\n登记人：\n登记时间：\n创建人：\n创建时间：\n修改人：\n修改时间：\n修改状态：</string>
+    <string name="work_addr">期望工作地点：</string>
+    <string name="search_job">职位搜索</string>
+    <string name="search_recruit">招聘搜索</string>
+    <string name="recruit_name">职位名称</string>
+    <string name="recruit_name_hint">请填写职位名称</string>
+    <string name="company_addr">工作地点：</string>
+    <string name="company_addr_hint">请填写工作地点</string>
+    <string name="recruit_detail">招聘单位：\n工作年限：\n招聘人数：\n学历要求：\n年龄要求：\n工作种类：\n性别要求：\n工资范围：</string>
+    <string name="job_desc">职位描述：</string>
+    <string name="job_resp">主要职责：</string>
+    <string name="job_reqr">任职要求：</string>
+    <string name="job_desc2">职位描述</string>
+    <string name="job_resp2">主要职责</string>
+    <string name="job_reqr2">任职要求</string>
+    <string name="job_desc2_hint">请填写职位描述</string>
+    <string name="job_resp2_hint">请填写主要职责</string>
+    <string name="job_reqr2_hint">请填写任职要求</string>
+    <string name="skill_desc">技能特长</string>
+    <string name="skill_hint">请填写技能特长</string>
+    <string name="experience_desc">工作经验</string>
+
+    <string-array name="experience_desc_items">
+        <item>(全部)</item>
+        <item>应届毕业生</item>
+        <item>一年以上</item>
+        <item>二年以上</item>
+        <item>三年以上</item>
+        <item>五年以上</item>
+        <item>八年以上</item>
+        <item>十年以上</item>
+    </string-array>
+
+    <string name="edu_level">学历</string>
+
+    <string-array name="edu_level_items">
+        <item>(全部)</item>
+        <item>其他</item>
+        <item>博士</item>
+        <item>硕士</item>
+        <item>本科</item>
+        <item>大专</item>
+        <item>中专</item>
+        <item>高技</item>
+        <item>中技</item>
+        <item>高中</item>
+        <item>初中</item>
+    </string-array>
+
+    <string name="work_type">工作种类</string>
+
+    <string-array name="work_type_items">
+        <item>(全部)</item>
+        <item>兼职</item>
+        <item>全职</item>
+    </string-array>
+
+    <string name="job_post">求职岗位</string>
+    <string name="job_post_hint">请填写求职岗位</string>
+    <string name="expected_salary">期望薪资</string>
+    <string name="expected_salary_hint">请填写期望薪资</string>
+    <string name="register">登记人</string>
+    <string name="register_hint">请填写登记人</string>
+    <string name="register_time">登记时间</string>
+    <string name="register_time_hint">请填写登记时间</string>
+    <string name="job_list">返回求职信息列表</string>
+    <string name="recruit_list">返回招聘信息列表</string>
+    <string name="recruit_requirement">招聘要求</string>
+    <string name="recruit_count">招聘人数</string>
+    <string name="recruit_count_hint">请填写招聘人数</string>
+
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="lastest_dt">最新动态</string>
+    <string name="lastest_gg">最新公告</string>
+    <string name="faburen">发布人：</string>
+    <string name="fabushijian">发布时间：</string>
+</resources>

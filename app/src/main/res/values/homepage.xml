@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="homepage_info1">家庭总数：\n人口总数：\n诉求总数：\n正在处理：\n已经办结：\n求职人数：\n用工信息：</string>
+    <string name="homepage_info2">今日新增：\n今日新增：\n今日新增：\n未评价：\n已经回访：\n今日新增：\n今日新增：</string>
+
+</resources>

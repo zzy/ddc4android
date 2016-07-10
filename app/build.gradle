@@ -1,0 +1,21 @@
+apply plugin: 'com.android.application'
+android {
+    compileSdkVersion 24
+    buildToolsVersion '24.0.0'
+
+    defaultConfig {
+        applicationId 'com.moershizhi.ddc'
+        minSdkVersion 11
+        targetSdkVersion 20
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+}

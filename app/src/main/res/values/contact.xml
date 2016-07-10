@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="contact_title">网格员通讯录</string>
+    <string name="new_grider">增加网格员</string>
+    <string name="people_account_hint">请填写账号</string>
+    <string name="search_contact">网格员搜索</string>
+    <string name="contact_detail">性别：\n账号：\n身份证号：\n联系电话：\n邮箱：\n所属机构： </string>
+
+</resources>

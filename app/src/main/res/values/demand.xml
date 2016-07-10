@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="demand_unassign">未处理诉求</string>
+    <string name="new_demand">提交诉求</string>
+    <string name="demand_key">关键字：</string>
+    <string name="demand_key_hint">请填诉求关键字</string>
+    <string name="demand_submitor">发信人：</string>
+    <string name="demand_submitor_hint">请填诉求发信人</string>
+    <string name="search_demand">诉求搜索</string>
+    <string name="demand_detail">县：\n镇：\n社区/村：\n小区/组：\n网格：\n网格员：\n联系电话：\n分类：\n来源：\n类型：\n问题类别：\n问题细类：</string>
+    <string name="demand_submitor_info">诉求人信息</string>
+    <string name="demand_submitor_detail">姓名：\n职业：\n电子邮件：\n邮编：\n电话：\n来信时间：</string>
+    <string name="demand_content">诉求内容：</string>
+    <string name="demand_title_hint">请填诉求标题</string>
+    <string name="demand_content_hint">请填诉求内容</string>
+    <string name="demand_hint">诉求基本信息需完整填写！</string>
+    <string name="demand_info">诉求信息</string>
+    <string name="demand_list">返回诉求信息列表</string>
+
+</resources>
