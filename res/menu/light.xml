@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+	<item
+        android:id="@+id/lightopen"
+        android:icon="@drawable/lightopen"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/light"/>
+	<item
+        android:id="@+id/lightclose"
+        android:icon="@drawable/lightclose"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/light"/>
+</menu>

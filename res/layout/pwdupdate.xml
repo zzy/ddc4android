@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#f3f3f3" >
+     
+
+    <EditText 
+        android:id="@+id/newpwd"
+        android:layout_width="270dp"
+        android:layout_height="45dp"
+        android:password="true"
+        android:background="@drawable/one"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:inputType="none"
+        android:gravity="center"
+        android:numeric="integer"
+        android:maxLength="6"
+        android:hint="输入新密码"
+        />
+     <EditText 
+        android:id="@+id/renewpwd"
+        android:layout_width="270dp"
+        android:layout_height="45dp"
+        android:password="true"
+        android:background="@drawable/one"
+        android:layout_below="@id/login_blooth_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="185dp"
+        android:gravity="center"
+        android:numeric="integer"
+        android:maxLength="6"
+        android:hint="再次输入密码"
+        />
+
+     
+     <Button 
+         android:id="@+id/pwdupdade_button"
+         android:layout_width="268dp"
+         android:layout_height="38dp"
+         android:background="@drawable/two"
+         android:layout_below="@id/renewpwd"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="40dp"
+         android:text="确认修改"
+         android:textColor="#666666" 
+         
+         />
+
+     <TextView
+         android:id="@+id/errormsg"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/renewpwd"
+         android:textColor="#FF0000"
+         android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

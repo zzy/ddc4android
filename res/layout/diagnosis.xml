@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?><RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent" >
+
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/start"
+        android:textColor="#666666" />
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/start_button"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="106dp" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp">
+
+            <ImageView
+		        android:id="@+id/imagedianji"
+		        android:layout_width="wrap_content"
+		        android:layout_height="30dp"
+		        android:src="@drawable/dianji" />
+            <TextView
+                android:id="@+id/tvMachine"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:textSize="20dp"
+                android:textColor="#778899"
+                android:text="电机" />
+            <TextView
+		        android:id="@+id/tvMachineVal"
+		        android:layout_width="wrap_content"
+		        android:layout_height="40dp"
+		        android:paddingLeft="150dp"
+		        android:textSize="20dp"
+                android:textColor="#778899"
+		        android:text="等待" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp" >
+			
+            <ImageView
+		        android:id="@+id/imagedianchi"
+		        android:layout_width="wrap_content"
+		        android:layout_height="30dp"
+		        android:src="@drawable/dianchi" />
+            <TextView
+                android:id="@+id/tvCell"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:textSize="20dp"
+                android:textColor="#778899"
+                android:text="电池" />
+            <TextView
+		        android:id="@+id/tvCellVal"
+		        android:layout_width="wrap_content"
+		        android:layout_height="40dp"
+		        android:textSize="20dp"
+		        android:paddingLeft="150dp"
+                android:textColor="#778899"
+		        android:text="等待" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp" >
+
+            <ImageView
+		        android:id="@+id/imageyoumen"
+		        android:layout_width="wrap_content"
+		        android:layout_height="30dp"
+		        android:src="@drawable/youmen" />
+            <TextView
+                android:id="@+id/tvGaun"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:textSize="20dp"
+                android:textColor="#778899"
+                android:text="油门" />
+            <TextView
+		        android:id="@+id/tvGaunVal"
+		        android:layout_width="wrap_content"
+		        android:layout_height="40dp"
+		        android:textSize="20dp"
+		        android:paddingLeft="150dp"
+                android:textColor="#778899"
+		        android:text="等待" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp" >
+			
+            <ImageView
+		        android:id="@+id/imageshache"
+		        android:layout_width="wrap_content"
+		        android:layout_height="30dp"
+		        android:src="@drawable/shache" />
+            <TextView
+                android:id="@+id/tvBrake"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:textSize="20dp"
+                android:textColor="#778899"
+                android:text="刹车" />
+            <TextView
+		        android:id="@+id/tvBrakeVal"
+		        android:layout_width="wrap_content"
+		        android:layout_height="40dp"
+		        android:textSize="20dp"
+		        android:paddingLeft="150dp"
+                android:textColor="#778899"
+		        android:text="等待" />
+        </TableRow>
+    </TableLayout>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+</RelativeLayout>
